@@ -1,0 +1,201 @@
+{
+  "auth": {
+    "roleSelect": {
+      "title": "Welcome to Farmer Marketplace",
+      "subtitle": "Choose how you want to use the app",
+      "farmer": "I am a Farmer",
+      "buyer": "I am a Buyer",
+      "admin": "Admin login"
+    },
+    "phoneLogin": {
+      "title": "Welcome",
+      "subtitle": "Enter your phone number to continue",
+      "phoneInput": "Phone number",
+      "sendCode": "Send Code",
+      "terms": "By continuing, you agree to our Terms"
+    },
+    "otpVerify": {
+      "title": "Enter the code we sent to",
+      "resendIn": "Resend code in",
+      "resend": "Resend"
+    },
+    "registerFarmer": {
+      "title": "Create Farmer Account",
+      "fullName": "Full Name",
+      "farmName": "Farm Name",
+      "district": "District",
+      "village": "Village / Area",
+      "mainCrops": "Main Crops",
+      "profilePhoto": "Profile Photo (optional)",
+      "verificationNotice": "Your account will be reviewed by our team before you can list products. This usually takes less than 24 hours.",
+      "createAccount": "Create Account"
+    },
+    "registerBuyer": {
+      "title": "Create Buyer Account",
+      "fullName": "Full Name",
+      "district": "District",
+      "deliveryAddress": "Delivery Address",
+      "profilePhoto": "Profile Photo (optional)",
+      "createAccount": "Create Account"
+    }
+  },
+  "farmer": {
+    "dashboard": {
+      "greeting": "Good morning",
+      "pendingVerification": "Account Pending Verification - Your listings will be visible to buyers after admin approval.",
+      "activeListings": "Active Listings",
+      "pendingOrders": "Pending Orders",
+      "earningsThisMonth": "Earnings This Month",
+      "newOrders": "New Orders",
+      "myProducts": "My Products",
+      "viewAll": "View All",
+      "addProduct": "+ Add Product"
+    },
+    "products": {
+      "title": "My Products",
+      "filterAll": "All",
+      "filterActive": "Active",
+      "filterSoldOut": "Sold Out",
+      "filterRemoved": "Removed",
+      "empty": "You haven't listed any products yet. Tap + to add your first listing.",
+      "add": "Add Product"
+    },
+    "addProduct": {
+      "title": "New Listing",
+      "productName": "Product Name",
+      "category": "Category",
+      "price": "Price",
+      "unit": "Unit",
+      "quantity": "Quantity Available",
+      "harvestDate": "Harvest Date",
+      "harvestDateHint": "Helps buyers know how fresh your product is",
+      "description": "Description",
+      "photos": "Photos",
+      "deliveryAvailable": "Delivery Available?",
+      "location": "Location",
+      "postListing": "Post Listing"
+    },
+    "orders": {
+      "title": "Orders",
+      "tabPending": "Pending",
+      "tabConfirmed": "Confirmed",
+      "tabReady": "Ready",
+      "tabShipped": "Shipped",
+      "tabDelivered": "Delivered",
+      "tabCancelled": "Cancelled",
+      "acceptOrder": "Accept Order",
+      "rejectOrder": "Reject Order",
+      "markReady": "Mark Ready for Pickup"
+    },
+    "wallet": {
+      "title": "Wallet",
+      "availableBalance": "Available Balance",
+      "requestWithdrawal": "Request Withdrawal",
+      "pendingPayouts": "Pending Payouts",
+      "released": "Released",
+      "all": "All",
+      "escrowTooltip": "Payments are held until your buyer confirms delivery. This protects both of you."
+    }
+  },
+  "buyer": {
+    "home": {
+      "searchPlaceholder": "Search products...",
+      "location": "📍",
+      "change": "Change",
+      "categoryAll": "All",
+      "addToCart": "Add to Cart",
+      "soldOut": "Sold Out",
+      "offlineBanner": "Showing cached results — you're offline"
+    },
+    "search": {
+      "title": "Search",
+      "recentSearches": "Recent searches",
+      "filter": "Filter",
+      "applyFilters": "Apply Filters"
+    },
+    "product": {
+      "freshnessVeryFresh": "Very Fresh",
+      "freshnessFresh": "Fresh",
+      "freshnessCheck": "Check with farmer",
+      "deliveryAvailable": "🚚 Delivery Available",
+      "pickupOnly": "📦 Pickup Only",
+      "callFarmer": "📞 Call Farmer",
+      "readMore": "Read more",
+      "seeAllReviews": "See all reviews",
+      "addToCart": "Add to Cart"
+    },
+    "cart": {
+      "title": "My Cart",
+      "empty": "Your cart is empty",
+      "browseProducts": "Browse Products",
+      "subtotal": "Subtotal",
+      "deliveryFee": "Estimated delivery fee",
+      "serviceFee": "Service fee (4%)",
+      "total": "Total",
+      "proceedToCheckout": "Proceed to Checkout →"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "deliveryAddress": "Delivery Address",
+      "fullAddress": "Full address",
+      "district": "District",
+      "landmark": "Landmark / directions",
+      "useCurrentLocation": "📍 Use my current location",
+      "deliveryTiming": "Delivery timing",
+      "asSoonAsPossible": "As soon as possible",
+      "schedule": "Schedule",
+      "orderNotes": "Order notes to farmer (optional)",
+      "anySpecialInstructions": "Any special instructions?",
+      "continueToPayment": "Continue to Payment →"
+    },
+    "payment": {
+      "title": "Payment",
+      "total": "Total:",
+      "paymentMethod": "Payment method",
+      "orangeMoney": "📱 Orange Money",
+      "afrimoney": "📱 Afrimoney",
+      "bankTransfer": "🏦 Bank Transfer",
+      "cashOnDelivery": "💵 Cash on Delivery",
+      "orangeMoneyNumber": "Orange Money number",
+      "pay": "Pay",
+      "iHaveTransferred": "I have transferred the money",
+      "cashWarning": "Only available for first-time orders up to Le 200,000",
+      "cashNote": "Cash will be collected by the delivery agent on arrival",
+      "escrowNotice": "🔒 Your payment is held securely and only released to the farmer after you confirm delivery.",
+      "placeOrder": "Place Order & Pay",
+      "processing": "Processing your payment… please wait"
+    },
+    "orderConfirmation": {
+      "title": "Order Placed! 🎉",
+      "orderReference": "Order Reference",
+      "tapToCopy": "Tap to copy",
+      "summary": "Summary",
+      "trackOrder": "Track My Order",
+      "continueShopping": "Continue Shopping",
+      "smsNote": "A confirmation has also been sent to"
+    },
+    "orders": {
+      "title": "My Orders",
+      "confirmDelivery": "Confirm Delivery",
+      "deliveryConfirmed": "✅ Delivery Confirmed — Payment Released to Farmer",
+      "reportProblem": "Report a Problem",
+      "leaveReview": "Leave a Review"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

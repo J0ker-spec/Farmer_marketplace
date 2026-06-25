@@ -1,0 +1,201 @@
+{
+  "auth": {
+    "roleSelect": {
+      "title": "Welkom to Farmer Marketplace",
+      "subtitle": "Chuz ow yu wan use di app",
+      "farmer": "Na Farmer mi",
+      "buyer": "Na Buyer mi",
+      "admin": "Admin login"
+    },
+    "phoneLogin": {
+      "title": "Welkom",
+      "subtitle": "Put yu fone numba for kontinyu",
+      "phoneInput": "Fone numba",
+      "sendCode": "Send Code",
+      "terms": "If yu kontinyu, yu agree to wi Terms"
+    },
+    "otpVerify": {
+      "title": "Put di code wi send to",
+      "resendIn": "Resend code insay",
+      "resend": "Resend"
+    },
+    "registerFarmer": {
+      "title": "Mek Farmer Account",
+      "fullName": "Full Name",
+      "farmName": "Farm Name",
+      "district": "District",
+      "village": "Village / Area",
+      "mainCrops": "Main Crops",
+      "profilePhoto": "Profile Foto (optional)",
+      "verificationNotice": "Wi go chek yu account bifo yu kin list produk. Dis dey tek less dan 24 awas.",
+      "createAccount": "Mek Account"
+    },
+    "registerBuyer": {
+      "title": "Mek Buyer Account",
+      "fullName": "Full Name",
+      "district": "District",
+      "deliveryAddress": "Delivery Address",
+      "profilePhoto": "Profile Foto (optional)",
+      "createAccount": "Mek Account"
+    }
+  },
+  "farmer": {
+    "dashboard": {
+      "greeting": "Gud mornin",
+      "pendingVerification": "Akaunt Pendi Verifikeshon - Yu listing go visible to buyer afta admin aproval.",
+      "activeListings": "Active Listings",
+      "pendingOrders": "Pending Orders",
+      "earningsThisMonth": "Earnings Dis Month",
+      "newOrders": "New Orders",
+      "myProducts": "Mi Products",
+      "viewAll": "View All",
+      "addProduct": "+ Add Product"
+    },
+    "products": {
+      "title": "Mi Products",
+      "filterAll": "All",
+      "filterActive": "Active",
+      "filterSoldOut": "Sold Out",
+      "filterRemoved": "Removed",
+      "empty": "Yu neva list any produk yet. Tap + for add yu first listing.",
+      "add": "Add Product"
+    },
+    "addProduct": {
+      "title": "New Listing",
+      "productName": "Product Name",
+      "category": "Category",
+      "price": "Price",
+      "unit": "Unit",
+      "quantity": "Quantity Available",
+      "harvestDate": "Harvest Date",
+      "harvestDateHint": "Epp buyers know ow fresh yu product dey",
+      "description": "Description",
+      "photos": "Fotos",
+      "deliveryAvailable": "Delivery Available?",
+      "location": "Location",
+      "postListing": "Post Listing"
+    },
+    "orders": {
+      "title": "Orders",
+      "tabPending": "Pending",
+      "tabConfirmed": "Confirmed",
+      "tabReady": "Ready",
+      "tabShipped": "Shipped",
+      "tabDelivered": "Delivered",
+      "tabCancelled": "Cancelled",
+      "acceptOrder": "Accept Order",
+      "rejectOrder": "Reject Order",
+      "markReady": "Mark Ready for Pickup"
+    },
+    "wallet": {
+      "title": "Wallet",
+      "availableBalance": "Available Balance",
+      "requestWithdrawal": "Request Withdrawal",
+      "pendingPayouts": "Pending Payouts",
+      "released": "Released",
+      "all": "All",
+      "escrowTooltip": "Payments dey hold until yu buyer confirm delivery. Dis protect both of una."
+    }
+  },
+  "buyer": {
+    "home": {
+      "searchPlaceholder": "Sach produk...",
+      "location": "📍",
+      "change": "Chenj",
+      "categoryAll": "All",
+      "addToCart": "Add to Cart",
+      "soldOut": "Sold Out",
+      "offlineBanner": "Showing cached results — yu offline"
+    },
+    "search": {
+      "title": "Sach",
+      "recentSearches": "Recent searches",
+      "filter": "Filter",
+      "applyFilters": "Apply Filters"
+    },
+    "product": {
+      "freshnessVeryFresh": "Very Fresh",
+      "freshnessFresh": "Fresh",
+      "freshnessCheck": "Check wit farmer",
+      "deliveryAvailable": "🚚 Delivery Available",
+      "pickupOnly": "📦 Pickup Only",
+      "callFarmer": "📞 Call Farmer",
+      "readMore": "Read more",
+      "seeAllReviews": "See all reviews",
+      "addToCart": "Add to Cart"
+    },
+    "cart": {
+      "title": "Mi Cart",
+      "empty": "Yu cart empty",
+      "browseProducts": "Browse Products",
+      "subtotal": "Subtotal",
+      "deliveryFee": "Estimated delivery fee",
+      "serviceFee": "Service fee (4%)",
+      "total": "Total",
+      "proceedToCheckout": "Proceed to Checkout →"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "deliveryAddress": "Delivery Address",
+      "fullAddress": "Full address",
+      "district": "District",
+      "landmark": "Landmark / directions",
+      "useCurrentLocation": "📍 Use mi current location",
+      "deliveryTiming": "Delivery timing",
+      "asSoonAsPossible": "As soon as possible",
+      "schedule": "Schedule",
+      "orderNotes": "Order notes to farmer (optional)",
+      "anySpecialInstructions": "Any special instructions?",
+      "continueToPayment": "Continue to Payment →"
+    },
+    "payment": {
+      "title": "Payment",
+      "total": "Total:",
+      "paymentMethod": "Payment method",
+      "orangeMoney": "📱 Orange Money",
+      "afrimoney": "📱 Afrimoney",
+      "bankTransfer": "🏦 Bank Transfer",
+      "cashOnDelivery": "💵 Cash on Delivery",
+      "orangeMoneyNumber": "Orange Money numba",
+      "pay": "Pay",
+      "iHaveTransferred": "Mi don transfer di money",
+      "cashWarning": "Only available for first-time orders up to Le 200,000",
+      "cashNote": "Cash go collect by di delivery agent wen e arrive",
+      "escrowNotice": "🔒 Yu payment dey hold secure an only release to di farmer afta yu confirm delivery.",
+      "placeOrder": "Place Order & Pay",
+      "processing": "Processing yu payment… plez wait"
+    },
+    "orderConfirmation": {
+      "title": "Order Place! 🎉",
+      "orderReference": "Order Reference",
+      "tapToCopy": "Tap to copy",
+      "summary": "Summary",
+      "trackOrder": "Track Mi Order",
+      "continueShopping": "Continue Shopping",
+      "smsNote": "A confirmation don also send to"
+    },
+    "orders": {
+      "title": "Mi Orders",
+      "confirmDelivery": "Confirm Delivery",
+      "deliveryConfirmed": "✅ Delivery Confirmed — Payment Release to Farmer",
+      "reportProblem": "Report Problem",
+      "leaveReview": "Leave Review"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occur",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
